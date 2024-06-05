@@ -7,11 +7,11 @@
 </head>
 <body>
     <?php 
-    $x = array("Lukas", "Pedro", "Ziko");
-    if($x[0] == "Lukas"){
-        echo "Nama pertama pada array adalah ". x[0];
+    $name = array("Lukas", "Pedro", "Ziko");
+    if($name[0] == "Lukas"){
+        echo "Nama pertama pada array adalah ". $name[0];
     }else{
-        echo "Nama pertama pada array bukan Lukas, tetapi ". x[0];
+        echo "Nama pertama pada array bukan Lukas, tetapi ". $name[0];
     };
     ?>
 </body>
